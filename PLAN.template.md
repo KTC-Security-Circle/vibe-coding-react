@@ -40,6 +40,9 @@
 
 - 料理写真: あり / なし
 - 背景画像: あり / なし
+- 画像素材: **Unsplash（https://unsplash.com/）の URL を使用する**
+  - `<img src="https://images.unsplash.com/..." alt="..." />` の形式で直リンクを使用
+  - `alt` テキストは必ず付与する
 - 利用素材の場所・注意点:
 
 ### 2.6 追加カスタマイズ
