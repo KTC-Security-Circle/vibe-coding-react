@@ -23,6 +23,7 @@
       ]
     }
   },
-  "postAttachCommand": "sudo chown -R node:node /app /app/node_modules && npm i",
+  "postStartCommand": "sudo chown -R node:node /app /app/node_modules && npm i",
+  "postAttachCommand": "npm run dev",
   "forwardPorts": [5173]
 }
